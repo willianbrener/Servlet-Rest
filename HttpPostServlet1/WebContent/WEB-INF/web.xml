@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>httpPostServlet</servlet-name>
+		<servlet-class>server.httpPostServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>server.Login</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>cadastrarAluno</servlet-name>
+		<servlet-class>server.cadastroAluno</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>cadastrarProfessor</servlet-name>
+		<servlet-class>server.cadastroProfessor</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>deletarAluno</servlet-name>
+		<servlet-class>server.deletarAluno</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>deletarProfessor</servlet-name>
+		<servlet-class>server.deletarProfessor</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>pesquisarAluno</servlet-name>
+		<servlet-class>server.pesquisarAluno</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>pesquisarProfessor</servlet-name>
+		<servlet-class>server.pesquisarProfessor</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>cadastrarAluno</servlet-name>
+		<url-pattern>/servlet/cadastrarAluno</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cadastrarProfessor</servlet-name>
+		<url-pattern>/servlet/cadastrarProfessor</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>deletarAluno</servlet-name>
+		<url-pattern>/servlet/deletarAluno</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>deletarProfessor</servlet-name>
+		<url-pattern>/servlet/deletarProfessor</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>pesquisarAluno</servlet-name>
+		<url-pattern>/servlet/pesquisarAluno</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>pesquisarProfessor</servlet-name>
+		<url-pattern>/servlet/pesquisarProfessor</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>httpPostServlet</servlet-name>
+		<url-pattern>/servlet/httpPostServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/servlet/Login</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+
+</web-app>
